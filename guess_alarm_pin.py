@@ -6,9 +6,9 @@ class GuessAlarmPin:
         digits = ['5', '7']
         pins = []
 
-        # Loop to generate all PIN combos.
-        for p in product(digits, repeat=total_digits):
-                pins.append(''.join(p))
+        # Generates all PIN combos: 
+        for p in product(digits, repeat=total_digits): # Iterates through all possible digits
+                pins.append(''.join(p)) # Joins digits into 1 str and adds to an array of pins
 
         return pins
 
