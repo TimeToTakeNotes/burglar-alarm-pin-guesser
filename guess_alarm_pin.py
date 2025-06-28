@@ -8,7 +8,10 @@ class GuessAlarmPin:
 
         # Generates all PIN combos: 
         for p in product(digits, repeat=total_digits): # Iterates through all possible digits
-                pins.append(''.join(p)) # Joins digits into 1 str and adds to an array of pins
+                pin = ''.join(p)
+                
+                if pin not in {'5555', '7777'}: # Exclude pins in set
+                    pins.append(pin) # Joins digits into 1 str and adds to an array of pins
 
         return pins
 
