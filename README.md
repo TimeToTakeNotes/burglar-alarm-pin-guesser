@@ -15,4 +15,4 @@ python guess_alarm_pin.py
 - All possible valid PINs
 - The total number of guesses
 
-  ![guess_alarm_pin_output](https://github.com/user-attachments/assets/dcc6a056-db97-49f5-88e6-056074672a92)
+![guess_alarm_pin_output](https://github.com/user-attachments/assets/0b147197-2a3d-4dbb-8f8e-41e2b5263ef2)
